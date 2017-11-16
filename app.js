@@ -99,7 +99,6 @@ function buildTable() { //find my table id, and create the header and body of ta
 
 buildTable(); //inoke function to build my table
 
-formEl.addEventListener('submit', pushSubmit); //event listener, when i push submit, invoke pushSubmit()
 
 var formEl = document.getElementById('input_store_data'); //grab my <form> element
 
@@ -136,3 +135,5 @@ function addTableRow(location, hourlySales, totalSales) { //function similar to 
 
   return trEl;
 };
+
+formEl.addEventListener('submit', pushSubmit); //event listener, when i push submit, invoke pushSubmit()
