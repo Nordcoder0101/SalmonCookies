@@ -1,0 +1,234 @@
+html {
+  width: 100%;
+  height: 40%;
+}
+
+body {
+  width: 900px;
+  margin:auto;
+}
+
+header {
+  margin-top: 35px;
+  margin-bottom: 30px;
+}
+
+main {
+  margin-top: 54px;
+}
+
+footer {
+  margin-top: 20px;
+  position:relative;
+}
+
+/* Delicious */
+h1 {
+  font-family: 'Yellowtail';
+  font-size: 36px;
+  display: inline;
+  position: absolute;
+  bottom: 15px;
+  left: 50px;
+}
+
+/*Chocolate Pizza*/
+h2 {
+  font-family: 'Oswald';
+  font-size: 42px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+/*Vanessa Stevenson*/
+h3 {
+  color: #666;
+  font-weight: bold;
+  font-size: 21px;
+  margin-top: 0;
+  display: inline;
+}
+
+/*Copyright info*/
+h4 {
+  color: #B4ACAE;
+  font-size: 15px;
+  font-weight: lighter;
+  text-align: center;
+  line-height: 20px;
+}
+
+/*BEST FOOD BLOG*/
+h5 {
+  font-family: 'Monaco';
+  font-size: 11px;
+  display: inline;
+  color: #999;
+  position: absolute;
+  bottom: 4px;
+  left: 52px;
+}
+
+/*POSTED ON 15 DEC*/
+h6 {
+  font-family: 'Monaco';
+  font-size: 13px;
+  display: inline;
+  color: #C3C3C3;
+}
+
+p {
+  font-size: 19.5px;
+  color: grey;
+  text-indent: 28px;
+  margin: 30px 0px;
+  line-height: 26px;
+}
+
+.noIndent {
+  text-indent: 0px;
+  margin: 12px 0px 0px 0px;
+}
+
+.print {
+  /*position: relative;*/
+  float: right;
+  /*opacity: .3;
+  font-size: 11px;
+  margin-right: 118px;
+  margin-top: 7px;*/
+}
+
+.print_text {
+  padding-left: 2px;
+  float: right;
+}
+
+.pizza_photo {
+  margin-top: 30px;
+  clear: both;
+  width: 900px;
+}
+
+.recipe {
+  margin-top: 36px;
+  clear: both;
+  margin-bottom: 36px;
+}
+
+.delicious {
+  position: relative;
+}
+
+.social {
+  position:absolute;
+  right: 0px;
+  display: inline;
+}
+
+.links{
+  padding: 0px .1px;
+}
+
+.links-left{
+  padding: 0px 4px 0px 0.1px;
+}
+
+.links-right{
+  padding: 0px 0.1px 0px 4px;
+}
+
+.ingredientsBox {
+  position:relative;
+  width:899px;
+  height:305px;
+  margin-bottom: 40px;
+}
+
+ul.ingredientsList {
+  position: absolute;
+  font-family: 'Patrick Hand',cursive;
+  font-size: 24px;
+  color: #777;
+  list-style-type: none;
+  top: 40px;
+  left: 60px;
+  columns: 2;
+  column-gap: 40px;
+  margin-right: 100px;
+}
+
+.columnBreak {
+  break-after: column;
+}
+
+.sectionBreak {
+  height: 13px;
+  width: 900px;
+  background: repeating-linear-gradient(
+    45deg,
+    #969696,
+    #969696 1px,
+    #fff 1px,
+    #fff 3px
+  );
+}
+
+.profile {
+  float: left;
+  margin-right: 20px;
+}
+
+.vanessa {
+  width: 75%;
+  float: left;
+  margin-bottom: 50;
+}
+
+.sharebutton {
+  background-color: #BC7058;
+  padding: 20px 40px;
+  color: #FFF;
+  font-family: sans-serif;
+  float: right;
+  display: inline;
+  margin-top: 10px;
+}
+
+.emptybox {
+  width:900px;
+  height:185px;
+}
+
+.bottomline
+{
+  height: 1px;
+  width: 900px;
+  background-color: #ECECEC;
+  position: absolute;
+  top:200px;
+  display: block;
+  z-index: -1;
+}
+
+.smallLogo {
+  margin:auto;
+  display:block;
+}
+
+.copyright {
+  margin-top: 34px;
+}
+
+input[type="checkbox"] {
+    display:inline-block;
+    width:19px;
+    height:19px;
+    margin:0px 6px 0 0;
+    vertical-align:middle;
+    filter: invert(2%);
+}
+
+input:checked + label {
+  text-decoration: line-through;
+}
